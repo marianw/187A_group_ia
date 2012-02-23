@@ -1,6 +1,6 @@
 body
 {
-	margin-top: 40px;
+	margin-top: 20px;
 	background-color:#d4d4d4;
 	font-family: 'Lora', serif;
 }
@@ -39,15 +39,35 @@ h1, h2, h3, h4
 	font-weight: 100;
 }
 
+.nav-header
+{
+	font-family: 'Oswald', sans-serif;
+	color: black !important;
+	font-weight: 100 !important;
+	font-size: 20px !important;;
+	text-transform:none !important;
+}
+
+.nav-list
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px !important;
+}
+
 p
 {
 	font-family: 'Lora', serif;
 }
 
-a
+#newslist, #studentlink, #parentlink, #stafflink, #alumlink a
 {
 	color: #b9261a;
 	display:block;
+}
+
+a
+{
+	color: #b9261a;
 }
 
 a:hover
@@ -66,6 +86,7 @@ a:hover
 {
 	color: white;
 }
+
 .navbar
 {
 	
@@ -80,6 +101,8 @@ a:hover
 	box-shadow:  0px 0px 6px #888;
 	background-color: white;
 }
+
+/* news box */
 
 #news
 {
@@ -117,6 +140,8 @@ a:hover
 {
 	padding: 20px;
 }
+
+/* target boxes */
 
 #students
 {
@@ -238,7 +263,7 @@ hr{
 
 .footeraddress
 {
-	margin-top: 10px;
+	margin-top: 20px;
 	margin-right: 50px;
 	border-right: 1px solid #ccc;
 	font-family: 'Oswald', sans-serif;
@@ -248,4 +273,43 @@ hr{
 .otherlinks
 {
 	margin-top: 20px;
+}
+
+.navbox
+{	
+	margin: 0;
+}
+
+.content
+{	
+	position: relative;
+	box-shadow:  1px 0px 8px #999;
+	background: #eee;
+	padding: 10px;
+	border-top: 9px solid #b9261a;
+	left: 6.5%;
+	padding: 10px;
+	text-align:justify;
+}
+
+.contenttitle
+{
+	margin-bottom: 20px;
+}
+
+.nav1
+{	
+	box-shadow:  1px 0px 8px #999;
+	background: #eee;
+	padding: 10px;
+	border-top: 6px solid #b9261a;
+}
+
+.nav2
+{	
+	margin-top: 50px;
+	box-shadow:  1px 0px 8px #999;
+	background: #eee;
+	padding: 10px;
+	border-top: 6px solid #b9261a;
 }
