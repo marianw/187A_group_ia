@@ -1,0 +1,251 @@
+body
+{
+	margin-top: 40px;
+	background-color:#d4d4d4;
+	font-family: 'Lora', serif;
+}
+
+.logo
+{
+	padding: 15px;
+	margin-top: -42px;
+	margin-left: 20px;
+	
+}
+
+.upper
+{
+margin-left: 480px;
+margin-top: 20px;
+font-size: 11px;
+}
+
+.upnav
+{
+	margin-top: -30px;
+	margin-right: 10px;
+}
+.uniname
+{
+	margin-top: 37px;
+	font-size: 40px;
+	font-family: 'Oswald', sans-serif;
+	
+}
+
+h1, h2, h3, h4
+{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 100;
+}
+
+p
+{
+	font-family: 'Lora', serif;
+}
+
+a
+{
+	color: #b9261a;
+	display:block;
+}
+
+a:hover
+{
+	color: #e34234;
+	background: #ddd !important;
+}
+
+#ulink a
+{
+	color: #b9261a;
+
+}
+
+#ulink a:hover
+{
+	color: white;
+}
+.navbar
+{
+	
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	letter-spacing: 1px;
+	text-shadow: #000 -1px -1px 0;
+}
+
+.mainbox
+{
+	box-shadow:  0px 0px 6px #888;
+	background-color: white;
+}
+
+#news
+{
+	margin-top: 24px;
+	background-color: #eee;
+	text-indent:20px;
+	margin-left: 20px;
+	height: 287px;
+	box-shadow:  1px 0px 8px #999;
+	border-top: 9px solid #b9261a;
+}
+
+#newsbox
+{
+	margin-top:-10px;
+	padding: 20px;
+	margin-left: 0px;
+	text-indent:-.5px;
+
+	
+}
+
+#newslist
+{
+	margin-top: 10px;
+	text-decoration:underline;
+}
+
+#readmore
+{
+	text-align:right;
+	text-decoration: underline;
+}
+#pictures
+{
+	padding: 20px;
+}
+
+#students
+{
+	margin-top: 20px;
+	margin-left: 20px;
+	box-shadow:  1px 0px 8px #999;
+	text-indent: 25px;
+	background-color: #eee;
+	border-top: 6px solid #b9261a;
+	
+}
+
+#imgstudent
+{
+	margin-left: 0px;
+	margin-top: 10px;
+	
+}
+
+#studentlink
+{
+	margin-top: 10px;
+	margin-left: -5px;
+	padding: 5px;
+}
+
+#parents
+{
+	margin-top: 20px;
+	box-shadow:  1px 0px 8px #999;
+	margin-left: 12px;
+	margin-right: 2px;
+	background-color: #eee;
+	text-indent: 25px;
+	border-top: 6px solid #b9261a;
+	
+}
+
+#imgparent
+{
+	margin-left: 0px;
+	margin-top: 10px;
+	
+}
+
+#parentlink
+{
+	margin-top: 10px;
+	margin-left: -5px;
+	padding: 5px;
+}
+
+#staff
+{
+	margin-top:  20px;
+	box-shadow:  1px 0px 8px #999;
+	margin-right: 10px;
+	margin-left: 10px;
+	background-color: #eee;
+	text-indent: 25px;
+	border-top: 6px solid #b9261a;
+}
+
+#imgstaff
+{
+	margin-left: 0px;
+	margin-top: 10px;
+	
+}
+
+#stafflink
+{
+	margin-top: 10px;
+	margin-left: -5px;
+	padding: 5px;
+}
+
+#alumni
+{
+	margin-top: 20px;
+	box-shadow:  1px 0px 8px #999;
+	margin-right: 20px;
+	background-color: #eee;
+	text-indent: 25px;
+	border-top: 6px solid #b9261a;
+}
+
+#imgalum
+{
+	margin-left: 0px;
+	margin-top: 10px;
+	
+}
+
+#alumlink
+{
+	margin-top: 10px;
+	margin-left: -5px;
+	padding: 5px;
+}
+
+.divide
+{
+	text-align:center;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+hr{
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 -12px 12px -15px rgba(0,0,0,0.5);
+}
+
+.footerlogo
+{
+	margin-left: 20px;
+}
+
+.footeraddress
+{
+	margin-top: 10px;
+	margin-right: 50px;
+	border-right: 1px solid #ccc;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 100;
+}
+
+.otherlinks
+{
+	margin-top: 20px;
+}
