@@ -502,3 +502,43 @@ hr{
 	margin-top: 10px;
 	
 }
+
+.comphead1
+{	
+	position:relative;
+	margin-top:330px;
+	background: #ddd;
+	box-shadow:  1px 0px 5px #555;
+	padding: 5px;
+	text-indent:10px;
+}
+
+.comphead2
+{	
+	position:relative;
+	margin-top:230px;
+	background: #ddd;
+	box-shadow:  1px 0px 5px #555;
+	padding: 5px;
+	text-indent:10px;
+}
+
+.comphead3
+{	
+	position:relative;
+	margin-top:50px;
+	background: #ddd;
+	box-shadow:  1px 0px 5px #555;
+	padding: 5px;
+	text-indent:10px;
+}
+
+.comphead4
+{	
+	position:relative;
+	margin-top:150px;
+	background: #ddd;
+	box-shadow:  1px 0px 5px #555;
+	padding: 5px;
+	text-indent:10px;
+}
