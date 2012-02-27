@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>A Generic Page</title>
-    <meta name="description" content="something good should go here">
-    <meta name="author" content="your name should go here">
+    <title>187A IA Redesign Assignment</title>
+    <meta name="description" content="index page for 187a ia redesign project">
+    <meta name="author" content="Marian Wang, Sharon Hwang, Michael Yamane">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
@@ -27,7 +27,7 @@
 
     <!-- Bootstrap Javascripts http://twitter.github.com/bootstrap/javascript.html -->
     <script src="javascripts/lib/bootstrap.js"></script>
-    <script src="javascripts/lib/bootstrap-dropdown.js"></script>
+  
 
     <!-- Fancybox Lightbox http://fancyapps.com/fancybox/#examples -->
     <script src="javascripts/lib/jquery.fancybox.js"></script>
@@ -35,6 +35,9 @@
 
     <!-- Your Javascripts -->
     <script src="javascripts/main.js"></script>
+    <script src="javascripts/jquery.js"></script>
+    <script src="javascripts/jquery.scrollTo.js"></script>
+    <script src="javascripts/jquery.nav.min.js"></script>
     
     <!-- FlexSlider Things -->
     <link rel="stylesheet" href="flexslider.css" type="text/css">
@@ -48,229 +51,258 @@
       });
     </script>
     
+    <script type="text/javascript">$(document).ready(function() {$('#nav').onePageNav();});</script>
   </head>
 
-  <body>
+ 	 <body>
     <div class="container">
     <div class="row">
     <div class="span12">
     <div class="mainbox">
 	<div class="row">
-	<div class="span12">
-	<div class="upper">
-	<a href="contact.html">Contact | Directories | Site Map | Search</a>
-	<div class="upnav"> 
-	<form class="navbar-search pull-right">
-	  <input type="text" class="search-query" placeholder="Search">
-	</form>
-	</div>
-	</div>
-	</div>
-	</div>
-    <div class="row">
-    <div class="span3">
-    <div class="logo"><img src="images/logo.png" alt="logo"> </div>
-    </div>
-    
-    <div class="span8">
-    <div class="uniname">
-    University of Louisiana at Lafayette
-    </div>
-    </div>
-    </div>
-
-    <div class="navbar">
-      <div class="navbar-inner">
-        <div class="container">
-          <ul class="nav">
-            <li class="active">
-              <a href="#">Home</a>
-            </li>
-            <li class="divider-vertical"></li>
-     
-        <li class="dropdown">
-        <a  href="#" class="dropdown-toggle" data-toggle="dropdown">
-        About
-        <b class="caret"></b></a>
-        <ul class="dropdown-menu">
-             <li><a href="#">Action</a></li>
-             <li><a href="#">Another action</a></li>
-             <li><a href="#">Something else here</a></li>
-             <li class="divider"></li>
-             <li><a href="#">Separated link</a></li>
-           </ul>
-        </li>
-          
-            <li class="divider-vertical"></li>
-            <li><a href="#">Academics</a></li>
-            <li class="divider-vertical"></li>
-            <li><a href="#">Admissions</a></li>
-            <li class="divider-vertical"></li>
-            <li><a href="#">Campus Life</a></li>
-            <li class="divider-vertical"></li>
-            <li><a href="#">Research</a></li>
-            <li class="divider-vertical"></li>
-            <li><a href="#">Contact</a></li>
-            <li class="divider-vertical"></li>
-            <li><a href="#">&nbsp;</a></li>
-            <li class="divider-vertical"></li>
-            <li id="ulink"><a href="#">U-LINK</a></li>
-            <li class="divider-vertical"></li>
-          </ul>
-        </div> <!-- end container -->
-      </div> <!-- end navbar-inner -->
-    </div> <!-- end navbar -->
- 
+	<div class="span3">
+	<div id="navintro">
+	<div class="nav3">
+	<ul class="nav nav-list">
+	  <li class="nav-header">
+	   Index
+	  </li>
+	  <li>
+	    <a href="#topheader">Top of the Page</a>
+	  </li>
+	  <li>
+	    <a href="#topheader2">Personas</a>
+	  </li>
+	  <li>
+	    <a href="#topheader3">Competitive Analysis</a>
+	  </li>
+	  <li>
+	    <a href="#topheader4">Design Choices</a>
+	  </li>
+	  <li>
+	    <a href="#topheader5">Hardest Design Decisions</a>
+	  </li>
+	  <li>
+	    <a href="#topheader6">Website Redesign Index</a>
+	  </li>
+	</ul>
 	
-	<div class="row">
-	<div class="span4">
-	<div id="news">
-	<h1>News</h1>
-	<div id="newsbox">
-	<h4>February 2012</h4>
-	<div id="newslist">
-	<a href="#">Picard Center Opens in University Research Park</a>
-	<p><br><a href="#">Mural at Gateway to UL Lafayette Nearing Completion</a></p>
-	<p><br><a href="#">Pride of Acadiana Marching Band Has New Uniform Design</a></p>
-	<div id="readmore">
-	<p><br><a href="#">Click to read more >></a>
-	</p></div>
-	</div> <!-- end newslist -->
-	</div> <!-- end newsbox -->
-	</div> <!-- end news -->
-	</div> <!-- end span4 -->
-	
+	</div> <!-- end nav1 -->
+	</div> <!-- end navintro -->
+	</div> <!-- end span3 -->
 	<div class="span8">
-	<div id="pictures">
-	<div class="flexslider">
-	  <ul class="slides">
-	    <li>
-	      <img src="images/slide1.png" />
-	    </li>
-	    <li>
-	      <img src="images/slide2.png" />
-	    </li>
-	    <li>
-	      <img src="images/slide3.png" />
-	    </li>
+	<div class="contentintro">
+	<div id="topheader">
+	  <h1>IA Redesign of UL</h1>
+	</div>
+	<div class="stuff">
+	This IA Redesign of <a href="http://louisiana.edu">University of Louisiana, Lafayette</a> is by <strong>Marian Wang, Sharon Hwang, Michael Yamane</strong>. </div>
+	<div class="stuff"> Our redesign of it can be seen here: <a href="homepage.html">IA Redesign of University of Louisiana, Lafayette.</a></div>
+
+	<hr>
+	<div id="topheader2">
+	<h1>Personas</h1>
+	</div>
+	<div class="stuff">
+Here is a link to our personas in PDF format.
+blahblah link.
+	</div>
+	<hr>
+	<div id="topheader3">
+	<h1>Competitive Analysis</h1>
+	</div>
+	<div class="stuff">
+	Due to the multitude of tables we have for our competitive analysis, it can be seen on another page here:
+	</div> <!-- end stuff -->
+	<div class="stuff"><a href="competitive.html">Competitive Analysis</a></div>
+	<hr>
+	<div id="topheader4">
+	<h1>Design Choices</h1>
+	</div>
+	<div class="stuff">
+		For our design, we decided to not use the beige that's on the original page as a background. Instead we opted for a grey background and the area where the main part site sits is white. With white, we are able to use box shadows to create a nice shadow effect for each of the boxes we put on there. Ultimately, we decided to go with a choice of colors that contained primarily of shades of grey, black, and red. While creating the layout, it was a difficult choice on how we should implement the "vermillion" into our design. Vermillion is one of UL's school colors (source: <a href="http://en.wikipedia.org/wiki/University_of_Louisiana_at_Lafayette">Wikipedia</a>) and falls into the category of being a red-orange color. By being so bright, it would immediately clash with much of our other muted colors. Eventually, it was decided that we opt for a shade of red that's a few shades darker than vermillion, but still within it's hue range. Using a website called <a href="http://0to255.com">0to255</a> we found a red that fit very well with the rest of our redesign's color and chose to use that red instead. We did manage to incorporate vermillion into the redesign though, when you hover over a link the color that you see is vermillion.</div>
+<div class="stuff">
+Two of the sites that were a big inspiration were Harvard's website (<a href="http://harvard.edu">http://harvard.edu</a>) and UCSD's website (<a href="http://ucsd.edu">http://ucsd.edu</a>). Harvard's website gave us the idea to use a red border at the top in order to incorporate the red into our design. Harvard's usage of multiple boxes to categorize and show information was also a big influence. For UCSD, their TritonLink button was a big inspiration. Since UCSD has their TritonLink button stand out so much from the rest of navigation bar, it gave us the idea to make the U-Link button stand out too on our design. However, instead of overlaying an image like UCSD did, we just changed the font to red.
+</div>
+
+	<hr>
+	<div id="topheader5">
+	<h1>Hardest Design Decisions</h1>
+	</div>
+	<div class="stuff">
+	hardest design decisions
+	</div>
+	<hr>
+	<div id="topheader6">
+	<h1>Website Redesign Index</h1>
+	</div>
+	<div class="stuff">
+	For our website, we didn't redesign every single main page that was linked from the navigation bar. <strong>The following index shows which pages have been redesigned. Any pages that are not linked in this index, but have a clickable link on the redesigned site will either lead to a page from the original page or just be an empty hot link.</strong> When any of the items on the navigation menu are clicked, a drop-down menu appears- therefore the navigation links <strong>do not</strong> directly link to anything.
+	
+	<div class="stuff">
+	<div class="secondtitle">
+	<a href="homepage.html">Home Page</a></div>
+	
+	<div class="secondary">
+	<ul class="nav">
+	  <li>
+	   Students
+	  </li>
+	  <li>
+	   Parents & Visitors
+	  </li>
+	  <li>
+	   Faculty & Staff
+	  </li>
+	  <li>
+	   Alumni
+	  </li>
 	  </ul>
 	</div>
-	<br>
-	</div> <!-- end pictures -->
-	</div> <!-- end span8 -->
-	</div> <!-- end row -->
+
 	
-	<div class="row">
-	<div class="span3">
-	<div id="students">
-	<h3>Students</h3>
-	<div id="imgstudent">
-	<img src="images/student.png">
-	</div> <!-- end imgstudent -->
-	<div id="studentlink">
+	<div class="secondtitle">About</div>
+	<div class="secondary">
 	<ul class="nav">
-	<li class="active">
-	<a href="#">Prospective Students</a></li>
-	<li><a href="#">Transfer Students</a></li>
-	<li><a href="#">Graduate Students</a></li>
-	<li><a href="#">International Students</a></li>
-	<li><a href="#">Deadlines & Enrollment</a></li>
-	</ul>
-	</div>
-	</div> <!-- end students -->
-	</div> <!-- end span3 -->
-	
-	<div class="span3">
-	<div id="parents">
-	<h3>Parents & Visitors</h3>
-	<div id="imgparent">
-	<img src="images/parents.png">
-	</div>
-	<div id="parentlink">
-	<ul class="nav">
-	<li class="active">
-	<a href="#">Campus Map</a></li>
-	<li><a href="#">Parking</a></li>
-	<li><a href="#">Finances & Financial Aid</a></li>
-	<li><a href="#">Getting Involved</a></li>
-	<li><a href="#">Events</a></li>
-	</ul>
-	</div>
-	</div> <!-- end parents -->
-	</div> <!-- end span3 -->
-	
-	<div class="span3">
-	<div id="staff">
-	<h3>Faculty & Staff</h3>
-	<div id="imgstaff">
-	<img src="images/staff.png">
-	</div>
-	<div id="stafflink">
-	<ul class="nav">
-	<li class="active">
-	<a href="#">Facilities & Services</a></li>
-	<li><a href="#">Research</a></li>
-	<li><a href="#">Finances</a></li>
-	<li><a href="#">Human Resources</a></li>
-	<li><a href="#">Student/Class Schedule</a></li>
+	<li>
+	<a href="about.html">About UL</a>
+	</li>
+	  <li>
+	    <a href="glance.html">UL at a Glance</a>
+	  </li>
+	  <li>
+	    <a href="map.html">Map of UL</a>
+	  </li>
+	  <li>
+	    <a href="parking.html">Parking</a>
+	  </li>
+	  <li>
+	    FAQ
+	  </li>
 	</ul>
 	
-	</div>
-	</div> <!-- end staff -->
-	</div> <!-- end span3 -->
+	</div> <!-- end secondary -->
 	
-	<div class="span3">
-	<div id="alumni">
-	<h3>Alumni</h3>
-	<div id="imgalum">
-	<p><img src="images/alumni.png">
-	</p>
-	</div>
-	<div id="alumlink">
+	<div class="secondtitle">Academics</div>
+	
+	<div class="secondary">
 	<ul class="nav">
-	<li class="active">
-	<a href="#">About UL Alumni</a></li>
-	<li><a href="#">Getting Involved</a></li>
-	<li><a href="#">Events</a></li>
-	<li><a href="#">Services</a></li>
-	<li><a href="#">Contribute</a></li>
-	</ul>
+	  <li>
+	    <a href="academics.html">Academics Overview</a>
+	  </li>
+	  <li>
+	    Course Catalog
+	  </li>
+	  <li>
+	    Departments
+	  </li>
+	  <li>
+	    Undergraduate Studies
+	  </li>
+	  <li>
+	    Graduate Studies
+	  </li>
+	  <li>
+	    Academic Calendar
+	  </li>
+	    <li>
+	    Honors Program
+	  </li>
+	  </ul>
 	</div>
-	</div> <!-- end alumni -->
-	</div> <!-- end span3 -->
-	</div> <!-- end row -->
 	
-	<hr>
-	<div class="row">
-	<div class="span2">
-	<div class="footerlogo">
-	<img src="images/logo2.png">
-	</div> <!-- end footerlogo -->
-	</div> <!-- end span2 -->
-	<div class="span4">
-	<div class="footeraddress">
-	<address>
-	<strong>University of Louisiana at Lafayette</strong> <br>
-	104 University Circle, Lafayette LA 70504<br>
-	Phone: (337) 482-1000 | <a href="mailto:webmaster@louisiana.edu">Feedback</a><br>
-	</address>
-	</div> <!-- end footeraddress -->
-	</div> <!-- end span4 -->
+	<div class="secondtitle">Admissions</div>
+	<div class="secondary">
+	<ul class="nav">
+	<li>
+	    <a href="admissions.html">Overview of Admissions</a>
+	  </li>
+	  <li>
+	    <a href="prospective.html">Prospective Students</a>
+	  </li>
+	  <li>
+	   Transfer Students
+	  </li>
+	  <li>
+	   Graduate Students
+	  </li>
+	  <li>
+	   International Students
+	  </li>
+	  <li>
+	   Deadlines and Enrollment
+	  </li>
+	  <li>
+	   Financial Aid
+	  </li>
+	  </ul>
+	</div>
 	
-	<div class="span6">
-	<div class="otherlinks">
-	bwheheeheheh
+	<div class="secondtitle">Campus Life</div>
+	<div class="secondary">
+	<ul class="nav">
+	 <li>
+	    <a href="campuslife.html">Overview of Campus Life</a>
+	  </li>
+	  <li>
+	    Activities
+	  </li>
+	  <li>
+	    Events
+	  </li>
+	  <li>
+	    Getting Involved
+	  </li>
+	  <li>
+	   Athletics
+	  </li>
+	  <li>
+	    Clubs
+	  </li>
+	  </ul>
 	</div>
+	
+	<div class="secondtitle">Research</div>
+	<div class="secondary">
+	<ul class="nav">
+	  <li>
+	    <a href="research.html">Overview of Research</a>
+	  </li>
+	  <li>
+	   News
+	  </li>
+	  <li>
+	   Resources and Publications
+	  </li>	  
+	  </ul>
 	</div>
-	</div> <!-- end row -->
+	
+		<div class="secondtitle">Contact</div>
+	<div class="secondary">
+	<ul class="nav">
+	  <li class="active">
+	    <a href="contact.html">Contact Overview</a>
+	  </li>
+	  <li>
+	    Directories
+	  </li>
+	  <li>
+	    Contact Us
+	  </li>	  
+	  </ul>
+	</div>
+
 	
 
 	
-    </div> <!-- end mainbox -->
-	</div> <!-- end span12 -->
+	</div> <!-- end stuff -->
+	</div> <!-- end span8 -->
+	</div> <!-- contentintro -->
+	</div> <!-- end row -->
+	</div> <!-- end mainbox -->
+		</div> <!-- end span12 -->
 	</div> <!-- end row -->
 	
-	<br><br>
     </div> <!-- end container -->
 
   </body>

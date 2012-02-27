@@ -3,6 +3,19 @@ body
 	margin-top: 20px;
 	background-color:#d4d4d4;
 	font-family: 'Lora', serif;
+	color: black;
+	margin-bottom: 20px;
+}
+
+a
+{
+	color: #b9261a;
+}
+
+a:hover
+{
+	color: #e34234;
+	background: #ddd;
 }
 
 .logo
@@ -10,12 +23,16 @@ body
 	padding: 15px;
 	margin-top: -42px;
 	margin-left: 20px;
-	
+}
+
+.logo a:link, a:visited, a:hover, a:active
+{
+	background: none !important;
 }
 
 .upper
 {
-margin-left: 480px;
+margin-left: 550px;
 margin-top: 20px;
 font-size: 11px;
 }
@@ -30,13 +47,42 @@ font-size: 11px;
 	margin-top: 37px;
 	font-size: 40px;
 	font-family: 'Oswald', sans-serif;
-	
+	color: black;
+}
+
+.uniname a
+{
+	color: black;
+}
+
+.uniname a:hover
+{
+	color: black;
+	background: none;
+	text-decoration:none;
 }
 
 h1, h2, h3, h4
 {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 100;
+	color: black;
+}
+
+h1 a
+{
+	color: black;
+}
+
+h1, h3 a:hover
+{
+	background: none;
+	text-decoration: none;
+}
+
+h3 a
+{
+	color: black;
 }
 
 .nav-header
@@ -54,6 +100,12 @@ h1, h2, h3, h4
 	font-size: 14px !important;
 }
 
+
+.nav-list a:hover
+{
+	background: #e4e4e4 !important;
+}
+
 p
 {
 	font-family: 'Lora', serif;
@@ -65,16 +117,6 @@ p
 	display:block;
 }
 
-a
-{
-	color: #b9261a;
-}
-
-a:hover
-{
-	color: #e34234;
-	background: #ddd !important;
-}
 
 #ulink a
 {
@@ -87,14 +129,29 @@ a:hover
 	color: white;
 }
 
+.breadcrumb li
+{
+	font-family: 'Oswald', sans-serif;
+}
+
 .navbar
 {
 	
 	font-family: 'Oswald', sans-serif;
 	font-size: 16px;
 	letter-spacing: 1px;
-	text-shadow: #000 -1px -1px 0;
 }
+
+.dropdown li
+{
+	font-size: 14px;
+}
+
+.dropdown li a:hover
+{
+	color: #e34234;
+}
+
 
 .mainbox
 {
@@ -129,6 +186,11 @@ a:hover
 {
 	margin-top: 10px;
 	text-decoration:underline;
+}
+
+#newslist a:hover
+{
+	background: #d4d4d4 !important;
 }
 
 #readmore
@@ -168,6 +230,11 @@ a:hover
 	padding: 5px;
 }
 
+#studentlink a:hover
+{
+	background: #d4d4d4 !important;
+}
+
 #parents
 {
 	margin-top: 20px;
@@ -192,6 +259,11 @@ a:hover
 	margin-top: 10px;
 	margin-left: -5px;
 	padding: 5px;
+}
+
+#parentlink a:hover
+{
+	background: #d4d4d4 !important;
 }
 
 #staff
@@ -219,6 +291,11 @@ a:hover
 	padding: 5px;
 }
 
+#stafflink a:hover
+{
+	background: #d4d4d4 !important;
+}
+
 #alumni
 {
 	margin-top: 20px;
@@ -241,6 +318,11 @@ a:hover
 	margin-top: 10px;
 	margin-left: -5px;
 	padding: 5px;
+}
+
+#alumlink a:hover
+{
+	background: #d4d4d4 !important;
 }
 
 .divide
@@ -272,7 +354,9 @@ hr{
 
 .otherlinks
 {
-	margin-top: 20px;
+	margin-top: 10px;
+	text-align: right;
+	margin-right: 20px;
 }
 
 .navbox
@@ -287,14 +371,14 @@ hr{
 	background: #eee;
 	padding: 10px;
 	border-top: 9px solid #b9261a;
-	left: 6.5%;
-	padding: 10px;
+	left: 7%;
 	text-align:justify;
 }
 
 .contenttitle
 {
 	margin-bottom: 20px;
+	text-indent:2px;
 }
 
 .nav1
@@ -312,4 +396,109 @@ hr{
 	background: #eee;
 	padding: 10px;
 	border-top: 6px solid #b9261a;
+}
+
+.topjump
+{
+	margin-top: 20px;
+	text-align:center;
+	text-decoration: underline;
+}
+
+.contenttext
+{
+	margin-top: -10px;
+	padding: 10px;
+}
+
+/* pictures */
+
+#studentpic
+{	
+	margin-bottom: 20px;
+}
+
+#campuspic
+{
+	margin-top: 20px
+}
+
+.researchpic
+{
+	margin-top: 20px;
+	text-align:center;
+}
+
+/* intro */
+#navintro
+{
+	position: fixed;
+	margin-top: 20px;
+	padding: 5px;
+	margin-left: 32px;
+}
+
+.contentintro
+{	
+	position: relative;
+	margin-top: 25px;
+	box-shadow:  1px 0px 8px #999;
+	background: #eee;
+	padding: 10px;
+	left: 45%;;
+	border-top: 9px solid #b9261a;
+	text-align:justify;
+	margin-bottom: 20px;
+}
+
+.nav3
+{	
+	box-shadow:  1px 0px 8px #999;
+	background: #eee;
+	padding: 10px;
+	border-top: 9px solid #b9261a;	
+}
+
+#topheader, #topheader2, #topheader3, #topheader4, #topheader5, #topheader6
+{
+	background:white;
+	box-shadow:  1px 0px 8px #999;
+	padding: 5px;
+}
+
+.stuff
+{
+	margin-top: 20px;
+	font-family: 'Helvetica Neue';
+}
+
+.secondtitle
+{
+	margin-left: 15px;
+}
+
+.secondary
+{
+	margin-left:30px;
+}
+
+/* competitive analysis */
+
+#analysis
+{
+	padding: 20px;
+	border-top: 13px solid #b9261a;	
+}
+.comphead
+{
+	background: #ddd;
+	box-shadow:  1px 0px 5px #555;
+	padding: 5px;
+	text-indent:10px;
+}
+
+.description
+{
+	margin-top: 10px;
+	
 }

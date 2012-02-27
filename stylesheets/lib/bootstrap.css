@@ -1569,7 +1569,7 @@ table .span12 {
   clear: both;
   font-weight: normal;
   line-height: 18px;
-  color: #555555;
+  color: #b9261a;
   white-space: nowrap;
 }
 .dropdown-menu li > a:hover, .dropdown-menu .active > a, .dropdown-menu .active > a:hover {
@@ -2109,7 +2109,7 @@ button.btn.small, input[type="submit"].btn.small {
 .nav-list .active > a {
   color: #e34234;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
-  background-color: #bbb;
+  background-color: #d4d4d4 !important;
 }
 .nav-list .icon {
   margin-right: 2px;
